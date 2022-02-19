@@ -1,0 +1,38 @@
+.container {
+	width: 800px;
+	margin: 50px auto;
+	border: 5px solid black;
+}
+
+.container .kotak{
+	width: 150px;
+	height: 150px;
+	background-color: salmon;
+	margin-bottom: 10px;
+	font-size: 23px;
+	text-align: center;
+	line-height: 150px;
+	transition: margin-left 2s, transform 2s 1.3s, background-color 1s 1.5s;
+}
+.container:hover .kotak {
+	margin-left: 650px;
+	transform: rotate(720deg);
+	background-color: blue;
+}
+
+
+
+
+
+
+
+/* Fungsi / Timing Function 
+.ease{ transition: 3s; }
+.ease-in { transition: 3s ease-in; }
+.ease-out { transition: 3s ease-out; }
+.ease-in-out { transition: 3s ease-in-out; }
+.linear { transition: 3s linear; }
+.cubic-bezier { transition: 3s cubic-bezier(.44,-.65,.25,1.58); } */
+
+
+/*cubic-bezier (w,x,y,z)*/

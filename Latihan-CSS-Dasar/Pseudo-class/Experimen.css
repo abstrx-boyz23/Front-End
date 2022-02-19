@@ -1,0 +1,49 @@
+h1{
+    color: maroon;
+    font-size: 80px;
+    text-align: center;
+    font-variant: italic;
+}
+h2{
+    font-size: 55px;
+}
+.pseudo{
+    font-size: 50px;
+}
+
+pre{
+    font-size: 45px;
+}
+pre a:nth-child(2n) {
+    color: darkred;
+}
+
+pre a:nth-child(2n):hover {
+    color: darkred;
+    font-size: 55px;
+}
+
+pre a:nth-child(2n):active {
+    color: #19ff81;
+}
+
+p:last-of-type{
+    color: blue;
+}
+
+.helo{
+    color: green;
+}
+
+p:first-of-type{
+    color: #e18f00;
+}
+
+
+
+
+
+
+
+
+

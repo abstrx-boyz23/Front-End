@@ -1,0 +1,19 @@
+body{
+    font-family: Sans-Serif;
+    color: green;
+    font-size: 50px;
+}
+.helo{
+    color: inherit;
+}
+
+ul{
+    color: orange;
+}
+ul li a{
+    color: inherit;
+}
+ul li a:hover{
+    font-size: 65px;
+    color: red;
+}

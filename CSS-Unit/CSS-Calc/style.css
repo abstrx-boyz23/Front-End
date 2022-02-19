@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+* {
+ 	box-sizing: border-box;
+}
+
+body {
+ 	font-family: Nunito, sans-serif;
+ 	min-height: 100vh;
+ 	font-size: 1.4rem;
+ 	line-height: 1.6;
+ 	color: #333;
+ 	overflow-x: hidden;
+}
+
+ /* <----- Container ----->*/
+.container {
+	width: calc(100vmin - 2em);
+	max-width: 800px;
+ 	margin: 0 auto;
+}
+.container h1 {
+	text-align: center;
+	color: lightblue;
+	font-size: calc(7.6vw + 1.7em);
+}
+.container .hero-img {
+	max-width: 100vw;
+	margin: 0 calc(-50vw + 50%);
+}
+.container img {
+ 	display: block;
+ 	max-width: 100%;
+}
+.container #kata-mutiara{
+	background-color: #78e9bc;
+	padding: 2em;
+	text-align: center;
+	font-style: italic;
+	max-width: 100vw;
+	margin: 0 calc(-50vw + 50%);
+}
+
+
+
+
+
+
+
+

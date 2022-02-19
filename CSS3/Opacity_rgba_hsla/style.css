@@ -1,0 +1,28 @@
+body {
+	background-image: url('background.png');
+}
+.container .kotak1 {
+	width: 400px;
+	height: 400px;
+	background-color: rgba(15, 255, 239, .45);
+	/*opacity: .45;*/
+}
+.container .kotak2 {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: blue;
+	top: 310px;
+	left: 310px;
+}
+.container .kotak3 {
+	width: 400px;
+	height: 400px;
+	margin-top: 250px;
+	background-color: hsla(38, 100%, 42%, .38);
+}
+
+/* Kesimpulan :
+● Opacity digunakan untuk membuat elemen transparan (sprt : img, div, dll)
+● Rgba (red, green, blue, alpha) hanya bisa membuat transparan pada warna (color)
+*/

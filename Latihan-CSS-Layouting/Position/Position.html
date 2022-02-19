@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Position HTML</title>
+	<style type="text/css" media="all">
+		.box{
+			width: 300px;
+			height: 300px;
+		}
+		.kotak1{
+			background-color: lightgreen;
+			
+		}
+		.kotak2{
+			background-color: skyblue;
+			position: relative;
+		}
+		.kotak3{
+			background-color: red;
+		}
+		/* Kesimpulan :
+		● static merupakan value default dari position
+		● non-static (relative, absolute,fixed)
+			- berguna untuk memberikan 1 dimensi (tinggi) sehingga bisa elemen tsb. bisa digerakan  (top,left,bottom,right)
+		
+		
+		● relative 
+			- ketika elemen tsb. digerakan, ruang pertama nya di anggap masih ada.
+			
+			- ketika elemen tsb. digerakan, maka elemen tsb. bergerak relatif pada posisi semula.
+			
+			- ketika top: 0px; dan left: 0px; maka posisinya tdk berubah karna relatif pada posisi semula.
+			*/
+	</style>
+</head>
+<body>
+	<h1>
+		Mempelajari Position HTML (Static dan Relative
+	</h1>
+	<h2>Value Position, ada 4 yaitu: </h2>
+	<ol>
+		<li>Static (default)</li>
+		<li>Relative</li>
+		<li><a href="Position2.html">Absolute</a></li>
+		<li><a href="Position2.html">Fixed</a></li>
+	</ol>
+	
+	<h3>Value Relatif</h3>
+	
+	<div class="box kotak1"></div>
+	<div class="box kotak2"></div>
+	<div class="box kotak3"></div>
+		
+	
+</body>
+</html>

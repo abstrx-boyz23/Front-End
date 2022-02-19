@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Position HTML</title>
+	<style type="text/css" media="all">
+		body{
+			height: 8000px;
+			width: 800px;
+			margin-top: 50px;
+		}
+		.box{
+			width: 300px;
+			height: 300px;
+		}
+		.kotak1{
+			background-color: lightgreen;
+			position: absolute;
+			z-index: 10;
+			top: 1000px;
+			right: 300px;
+		}
+		.kotak2{
+			background-color: skyblue;
+			position: absolute;
+			top: 360px;
+		}
+		.kotak3{
+			background-color: red;
+			position: absolute;
+			top: 470px;
+			left: 121px;
+			z-index: 1;
+		}
+		.kotak4{
+			background-color: aqua;
+			position: absolute;
+			top: 580px;
+			left: 245px;
+		}
+		.bar{
+			color: white;
+			background-color: #0d4492;
+			text-align: center;
+			line-height: 50px;
+			height: 50px;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: 2;
+		}
+		/* Kesimpulannya :
+		● absolute :
+			- ketika absolute di gerakan maka ruang pertama nya dianggap kosong.
+			
+			- ketika elemen tsb. digerakan, maka elemen tsb. bergerak relatif pada posisi parent-nya.
+			
+			- ketika top: 0px; dan left: 0px; maka posisinya berpindah dipojok parent-nya karena posisi awal-nya relatif dengan parent-nya.
+			
+		● fixed :
+			- value ini tidak akan berpindah ketika website nya di scroll.
+			seperti namanya fixed (ditetapkan)
+			
+			- posisi awalnya sesuai parent-nya.
+			
+			- dan tidak peduli dengan elemen yang menghalanginya, kecuali dengan z-index.
+		
+		● z-index berguna untuk mengatur ketinggian dimensi (non-static)
+			*/
+	</style>
+</head>
+<body>
+	<h1>
+		Mempelajari Position HTML (Absolute dan Fixed)
+	</h1>
+	<h2>Value Position, ada 4 yaitu: </h2>
+	<ol>
+		<li><a href="Position.html">Static (default)</a></li>
+		<li><a href="Position.html">Relative</a></li>
+		<li>Absolute</li>
+		<li>Fixed</li>
+	</ol>
+	
+	<h3>Value Absolute</h3>
+	
+	<div class="box kotak1"></div>
+	<div class="box kotak2"></div>
+	<div class="box kotak3"></div>
+	<div class="box kotak4"></div>	
+	<div class="bar">Hello World</div>	
+	
+</body>
+</html>

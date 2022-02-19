@@ -1,0 +1,52 @@
+h1{
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 10px 10px 11px rgba(0,0,0,.45);
+}
+h2{
+	font-size: 40px;
+	margin-left: 70px;
+}
+
+/* <----- kotak ----->*/
+.kotak1 {
+	width: 300px;
+	height: 300px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 300px;
+	margin: 50px auto 60px;
+	border-radius: 100px;
+	background-color: rgba(240,160,21,.9);
+	box-shadow: 55px 55px 35px -20px rgba(0,0,0,.6);
+}
+.kotak2{
+	width: 300px;
+	height: 300px;
+	font-size: 40px;
+	margin: 100px auto;
+	text-align: center;
+	line-height: 300px;
+	border-radius: 90px;
+	background-color: skyblue;
+	transition: .5s;
+}
+.kotak2:hover{
+	width: 300px;
+	height: 300px;
+	margin: 5px auto;
+	font-size: 50px;
+	background-color: skyblue;
+	box-shadow: 0 45px 30px -20px rgba(0,0,0,.45);
+	/* (x) (y) (blur) (spread/size) (color) */
+}
+.kotak3{
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+	background-color: #0b00ff;
+	box-shadow: inset 0px 0px 5px 20px rgba(0,0,0,.45);
+}
+
+/* inset = kedalam
+inset (x) (y) (blur) (spread/size) (color) */

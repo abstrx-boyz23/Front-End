@@ -1,0 +1,48 @@
+/*<----- Container ----->*/
+.container {
+	width: 750px;
+	border: 3px solid grey;
+	border-radius: 10px;
+	margin: 50px auto;
+	text-align: center;
+	font: 35px/40px sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	color: white;
+}
+/*<----- Header ----->*/
+header {
+	background-color: #ab47ee;
+	padding: 60px 0;
+}
+/*<----- Content ----->*/
+.content:after {
+	content: "";
+	display: block;
+	clear: left;
+}
+/* Sidebar */
+.sidebar {
+	float: left;
+	width: 40%;
+}
+.sidebar aside {
+	background-color: #2598df;
+	padding: 60px 0;
+}
+.sidebar nav {
+	background-color: red;
+	padding: 100px 0;
+}
+/* Main */
+main {
+	background-color: #f2ae4f;
+	padding: 180px 0;
+	box-sizing: border-box;
+}
+/*<----- Footer ----->*/
+footer {
+	background-color: grey;
+	padding: 30px 0;
+	
+}

@@ -1,0 +1,72 @@
+h1{
+    color: maroon;
+    font-size: 80px;
+    text-align: center;
+    font-variant: italic;
+}
+h2{
+    font-size: 55px;
+}
+
+/* pseudo-class yang berhubungan dgn link */
+.pseudo{
+    text-decoration: none;
+}
+.pseudo:link{
+    color: #ac4b0d;
+    font-size: 20px;
+}
+.pseudo:hover{
+    color: #e94eec;
+    font-size: 40px;
+}
+.pseudo:active{
+    color: #108714;
+}
+.pseudo:visited{
+    color: red;
+}
+/*
+● :link merupakan tampilan link sebelum di sentuh
+● :hover merupakan tampilan link saat mouse tepat diatas link (tanpa diklik)
+● :active merupakan tampilan link saat di klik dan ditahan (tanda link aktif)
+● :visited merupakan tampilan link setelah di klik atau dikunjungi
+*/
+
+/* pseudo-class yang berhubungan dengan tag parent dan tag child */
+ul li a{
+    font-family: Sans-Serif;
+}
+
+ul li:first-child a{
+    color: #9a831e;
+}
+ul li:first-child a:hover{
+    color: orange;
+    font-size: 50px;
+}
+ul li:last-child a{
+    color: #75ae09;
+}
+
+/*
+● :first-child merupakan pseudo-class pada child pertama
+● :last-child merupakan pseudo-class pada child terakhir
+● :nth-child merupakan pseudo-class yg bisa memilih sesuai keinginan
+*/
+
+/* pseudo-class yang berhubungan dgn tag atau juga elemen */
+p:first-of-type{
+    color: #cd81df;
+}
+p:last-of-type{
+    color: #94ccda;
+}
+/*
+● :first-of-type merupakan pseudo-class pada elemen pertama
+● :last-of-type merupakan pseudo-class pada elemen terakhir
+
+
+
+
+

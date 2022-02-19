@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial Link di HTML</title>
+    </head>
+    <body>
+        <h1>Tutorial Menambahkan Link di HTML</h1>
+        <h2>Welcome Link2 !</h2>
+        <p>
+            Selamat Datang. Ini adalah halaman link1.
+            Klik link dibawah ini jika ingin beralih : <br />
+            <a href="link1.html">link1</a> | 
+            <a href="link2.html">link2</a> | 
+            <a href="link3.html">link3</a><hr />
+        <!-- Cara Mengubah Warna Link -->
+        <p>
+            <a href="link1.html" style="color: pink">link1</a> | 
+            <a href="link2.html" style="color: lightblue">link2</a> | 
+            <a href="link3.html" style="color: aqua; background-color: black">link3</a><hr />
+        </p><hr />
+        <!-- Cara Menambahkan Atribut Title Pada Link -->
+        <p>
+            Untuk lebih lengkapnya, silahkan klik di sini : <a href="https://www.petanikode.com/html-link/" title="Masuk Ke Halaman Petani Kode">Petani Kode</a>
+        </p>
+        <!-- Contoh Link Anchor -->
+        <h2>Tutorial Cara Membuat Link Anchor</h2>
+        <p>
+            Ini adalah link Anchor. Coba klik disini : <a href="#closing">Meluncur Ke Penutup</a>.<br />
+            Maka kamu akan dibawa ke bagian penutup dari dokumen ini
+        </p>
+        <h3>Apa Itu Jangkar ??</h3>
+        <p>
+            Anchor dalam bahasa indonesia artinya jangkar. Saya yakin
+            kamu pasti pernah melihat jangkar. Fungsi jangkar untuk 
+            menahan kapal agar tidak hanyut. Tapi dalam HTML, fungsinya
+            untuk membuat link yang bisa membawa kita meluncur ke tujuan
+            jangkar itu.
+        </p>
+        <p>
+            Jangkar atau anchor di HTML tidak hanya bisa digunakan pada
+            satu dokumen saja. Ia juga bisa digunakan untuk membuka dokumen
+            lain, lalu mengaitkan jangkarnya.
+        </p>
+        <p>
+            Jangkar biasanya dibuat dengan tanda pagar (#) lalu diikuti
+            dengan nama id dari elemen yang ingin dituju. Contohnya #penutup,
+            maka link yang menggunakan anchor tersebut akan mencari elemen
+            HTML yang memiliki id `penutup` dan membawa kita ke sana.
+            Kira-kira begitulah cara kerjanya.
+        </p>
+        <h2 id="closing">Akhir Kata..</h2>
+        <p>
+            Ini adalah penutup dari artikel ini, dan coba perhatikan headingnya.
+            Di sana kita menggunakan id="penutup". Maka elemen ini akan menjadi
+            tujuan dari anchor link.
+        </p>
+        <a href="#top">Kembali Ke Atas</a>
+        <!-- Membuat Link Untuk Memanggil Fungsi Javascript -->
+        <p>
+            <a href="#" onclick="alert('Hello World')">Jalankan JS Sekarang</a><br />
+            <a href="#" onmouseover="alert('Halo Nama Kamu Siapa?')">Click Here</a>
+        </p>
+        <!-- Atau menjalankan fungsi Javascript melalui atribut href atau URL. -->
+        <p>
+            <a href="javascript: alert('Hello World')">Jalankan JS</a>
+        </p>
+        <!-- Membuat Link Dengan Gambar -->
+        <p>
+            <a href="https://github.com/abstrx-boyz23"><img src="https://www.petanikode.com/img/logo.svg"/></a>
+        </p>
+        <!-- Cara Membuat Link Untuk Mengirim Email-->
+        <p>
+            Untuk Lebih Lanjut, Silahkan Hubungi Kami : <a href="mailto: kartuabc234@gmail.com" title="Hububgi Admin">Hubungi Saya</a>
+        </p>
+        <p>
+            Copyright &copy: abstrx-boyz23
+        </p>
+    </body>
+</html>
+
+  
+
+

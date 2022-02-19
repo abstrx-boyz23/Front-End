@@ -1,0 +1,84 @@
+/* <----- CSS Reset Sederhana -----> */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+body{
+	font-family: Georgia, serif;
+	line-height: 1.8em;
+}
+
+/*section*/
+/*section{*/
+/*	margin: 30px auto;*/
+/*	width: 80%;*/
+/*}*/
+/*section .detail{*/
+/*	font-size: 1.4rem;*/
+/*	text-align: center;*/
+/*	border-top: 1px solid black;*/
+/*	border-bottom: 1px solid black;*/
+/*	padding: 5em 0;*/
+/*	color: #333;*/
+/*	margin-bottom: 2em;*/
+/*}*/
+/*section p{*/
+/*	font-size: 1.2em;*/
+/*	margin-bottom: 1em;*/
+/*	text-indent: 2em;*/
+/*}*/
+
+
+
+
+
+/*  <----- CODING MODIFICATION ------> */
+
+/*header*/
+#header{
+	background-color: #e4dfd5;
+	background-image: url(https://images.unsplash.com/photo-1558021211-6d1403321394?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHNjaG9vbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+#header h1{
+	/*font-size: 9em;*/
+	font-size: 9vmax;
+	line-height: 1.4em;
+	color: white;
+	text-shadow: 10px 7px 5px rgba(0, 0, 0, .8);
+	text-align: center;
+	margin: auto;
+	font-variant: small-caps;
+}
+
+/*section*/
+section{
+	/*font-family: Nunito, Serif;*/
+	margin: 30px auto;
+	width: 80%;
+}
+section .detail{
+	font-size: .9rem;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 2em 0;
+	color: #333;
+	margin-bottom: 5em;
+	margin-top: 5em;
+}
+section p{
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	text-indent: 4em;
+}
+section .detail span a{
+	text-decoration: none;
+	color: #7c0606;
+}

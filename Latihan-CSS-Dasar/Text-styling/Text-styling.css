@@ -1,0 +1,39 @@
+h1 {
+    color: #7be2fc;
+    text-align: center;
+    
+    font-size: 90px;
+}
+/*
+● color untuk mengubah warna font
+● text-align untuk mengatur rata pada kalimat cth : right,left,justify,center
+*/
+
+p {
+    text-indent: 150px;
+    text-align: justify;
+    text-transform: none;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    
+    line-height: 90px;
+    font-size: 20px;
+}
+/*
+● text-indent untuk mengatur indentasi, ket: satuan px
+● text-transform untuk mengubah huruf menjadi kapital atau sebaliknya, cth: lowercase,uppercase,capitalize,none
+● letter-spacing untuk membuat jarak antar huruf, ket: satuan px
+● word-spacing untuk membuat jarak antar kata, ket: satuan px
+*/
+
+h3{
+    font-weight: normal;
+    word-spacing: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+/*
+● text-decoration untuk membuat garis pada font cth: overline,underline,line-through
+*/

@@ -1,0 +1,23 @@
+body{
+	height: 2600px;
+}
+
+.kotak {
+	width: 350px;
+	height: 350px;
+	background-color: salmon;
+	margin: 300px auto;
+}
+.kotak:hover {
+	transition: 1.8s;
+	background-color: blue;
+	transform: scale(2) rotate(360deg) rotatey(360deg) rotatex(360deg);
+	/*transform: translate(210px,1100px);*/
+	/*transform: skewy(360deg);*/
+}
+	
+	
+	
+	
+	
+	

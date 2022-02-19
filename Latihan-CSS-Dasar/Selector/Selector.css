@@ -1,0 +1,42 @@
+h1 {
+    font-family: "Times New Roman";
+    color: red;
+    font-size: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+h3, p {
+    font-family: Arial;
+}
+/* cara membacanya :
+tolong ubah font family tag h3 dan p (tanda (,) dibaca: dan)
+*/
+
+ul li a{
+    color: green;
+    text-decoration: none;
+}
+/* cara membacanya:
+tolong carikan saya tag ul yg didalamnya ada tag li, dan didalam tag li ada tag a
+(spasi dibaca: yg didalam (tag luar) ada (tag dalam))
+*/
+
+ol li a {
+    color: purple;
+    text-decoration: none;
+}
+
+.parafgraf1{
+    color: grey;
+}
+
+.parafgraf2{
+    color: lightblue;
+}
+/*
+Untuk Class cara memanggilnya pke tanda titik (.) 
+Untuk ID cara memanggilnya pke tanda pagar (#)
+*/

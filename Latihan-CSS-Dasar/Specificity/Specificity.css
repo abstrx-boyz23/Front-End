@@ -1,0 +1,33 @@
+h1{
+    color: green;
+}
+h1{
+    color: lightblue;
+}
+
+#hai a{
+    color: orange;
+}
+
+#hai .helo{
+    color: red;
+}
+
+/*
+cara menghitung spesifikasi adalah hitung dari:
+
+selector     inline    id   class   elemen
+
+#hai .helo      0       1     1        0
+
+                   VS
+
+#hai a          0       1     0        1
+*/
+
+
+
+
+
+
+

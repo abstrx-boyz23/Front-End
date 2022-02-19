@@ -1,0 +1,64 @@
+/*<----- Repeat ----->*/
+.repeat {
+	width: 80%;
+	border: 2px solid grey;
+	margin: 100px auto;
+	display: grid; 
+	grid-template-columns: repeat(1,1fr) repeat(2,1.5fr);
+}
+.repeat .kotak {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f8d4;
+	margin: 1px;
+}
+.repeat .kotak:nth-child(odd) {
+	background-color: #aeecdb;
+}
+/*<----- min-content & max-content ----->*/
+.content {
+	width: 80%;
+	border: 2px solid grey;
+	margin: 100px auto;
+	display: grid; 
+	grid-template-columns: 1fr min-content max-content;
+}
+.content .kotak {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f8d4;
+	margin: 1px;
+}
+.content .kotak:nth-child(odd) {
+	background-color: #aeecdb;
+}
+/*<----- Auto Fit & Auto Fill ----->*/
+.auto {
+	width: 80%;
+	border: 2px solid grey;
+	margin: 100px auto;
+	display: grid; 
+	grid-template-columns: repeat();
+}
+.auto .kotak {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f8d4;
+	margin: 1px;
+}
+.auto .kotak:nth-child(odd) {
+	background-color: #aeecdb;
+}
+
+
+
+
+
+
+
+
+
+

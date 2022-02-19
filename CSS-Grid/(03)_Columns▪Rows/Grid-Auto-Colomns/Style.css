@@ -1,0 +1,22 @@
+/*<----- Container ----->*/
+.container {
+	width: 80%;
+	border: 2px solid grey;
+	margin: 100px auto;
+	display: grid; 
+	grid-template-columns: .8fr 1.3fr;
+	grid-template-rows: 55px 30px;
+	grid-auto-flow: column;
+	grid-auto-columns: 20px;
+}
+/*--- Kotak ---*/
+.kotak {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f8d4;
+	margin: 1px;
+}
+.kotak:nth-child(odd) {
+	background-color: #aeecdb;
+}

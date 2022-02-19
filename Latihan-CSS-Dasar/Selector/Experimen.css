@@ -1,0 +1,38 @@
+/* Judul */
+h1 {
+    color: #561aba;
+    font-size: 95px;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 50px;
+    font-family: Sans-Serif;
+}
+.parafgraf1{
+    font-family: "Arial";
+    color: #ed9dd1;
+}
+.parafgraf2{
+    font-family: "Tahoma";
+    color: #8ad8ec;
+}
+ol li a {
+    color: blue;
+}
+
+ul li a {
+    color: green;
+}
+.link3 {
+    color: red;
+    font-style: none;
+}
+p b {
+    color: green;
+}
+

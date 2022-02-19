@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Form Di HTML</title>
+</head>
+<body>
+    <h1>Membuat Form Dengan HTML</h1>
+    <form accept-charset="utf-8">
+        <h2>Login</h2>
+        <label for="username">username : </label>
+        <input type="text" id="username" /> <br />
+        
+        <label for="pasword">password : </label>
+        <input type="password" id="password" />
+        <br /><br />
+        
+        <!-- <input type="text" /> untuk memberi tempat untuk mengetik -->
+        <!-- <input type="password" /> untuk memberi tempat untuk memberi password -->
+        
+        
+        <h2>Daftar Akun</h2>
+        
+        <label for="depan">Nama Depan : </label><input type="text" id="depan" />
+        <label for="belakang">Nama Belakang : </label><input type="text" id="belakang" /><br /><br />
+        
+        <input type="radio" name="jeniskelamin" id="laki-laki"  /><label for="laki-laki">Cowok</label>
+        <input type="radio" name="jeniskelamin" id="perempuan" /><label for="perempuan">Cewek</label>
+        <input type="radio" name="jeniskelamin" id="tidakdiketahui" /><label for="tidakdiketahui">Tidak Diketahui</label><br /><br />
+        
+        <!-- <input type="radio" name="" /> berfungsi untuk memilih satu option -->
+        
+        <label for="ttl">Tempat, tanggal lahir : </label><input type="text" id="ttl" /><br />
+        <label for="umur">Umur : </label><input type="text" id="umur" />
+        
+        
+        <h3>Pilih Hobi Anda : </h3>
+        <input type="checkbox" id="sepakbola" /><label for="sepakbola">Sepakbola</label><br />
+        <input type="checkbox" id="ngoding" /><label for="ngoding">Ngoding</label><br />
+        <input type="checkbox" id="running" /><label for="running">Running</label><br />
+        <input type="checkbox" id="volly" /><label for="volly">Volly</label><br />
+        <input type="checkbox" id="main-catur" /><label for="main-catur">Main Catur</label><br />
+        <input type="checkbox" id="bersepeda" /><label for="bersepeda">Bersepeda</label><br />
+        
+        <!-- <input type="checkbox" /> berfungsi untuk mwmbuat option yg bisa di pilih lbh dari satu -->
+        
+        <h3>Sekolah : </h3>
+        <input type="radio" name="sekolah" id="sd" /><label for="sd">SD/MI</label>
+        <input type="radio" name="sekolah" id="smp" /><label for="smp">SMP/MTs</label>
+        <input type="radio" name="sekolah" id="sma" /><label for="sma">SMA/MA</label><br />
+        
+        <label for="sekolah">Nama Sekolah : </label><input type="text" id="sekolah" />
+        
+        <h3>Tempat Tinggal</h3>5
+        <label for="provinsi">Provinsi Anda : </label><input type="text" id="provinsi" /><br />
+        <label for="kota">Kota/Kabupaten : </label><input type="text" id="kota" /><br />
+        <label for="desa">Kecamatan/Desa : </label><input type="text" id="desa" /><br /><br />
+        
+        <textarea rows="10" cols="40"></textarea><br />
+        <!-- fungsi <textarea rows="8" cols="40"></textarea> ~ membuat satu kolom bisa untuk komentar ataupun testimonial -->
+        
+        <select>
+            <option>Tegal</option>
+            <option>Brebes</option>
+            <option>Pemalang</option>
+            <option>Slawi</option>
+            <option>Pekalongan</option>
+            <option>Jepara</option>
+        </select><br />
+        
+        <!-- <select> berfungsi membuat option seperti di atas -->
+            
+        <button type="submit" >Kalo Udah Kirim Ngab </button>
+        <!-- <button type="submit"></button> berfungsi untuk membuat satu tombol -->
+
+    </form>
+</body>
+</html>

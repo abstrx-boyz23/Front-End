@@ -1,0 +1,38 @@
+h1{
+	font-size: 90px;
+	text-align: center;
+}
+.linear-gradient{
+	width: 250px;
+	height: 350px;
+	margin: 150px auto;
+	background-image: linear-gradient(to top right,red 30%,blue 80%);
+}
+.radial-gradient{
+	width: 250px;
+	height: 350px;
+	margin: 150px auto;
+	background-image: radial-gradient(circle farthest-corner at right, yellow 35%,orange 85%);
+}
+/* Kesimpulan :
+ada 2 type :
+● ellipse
+● circle
+
+ada 4 jangkauan :
+● closest-side
+● farthest-side
+● closest-corner
+● farthest-corner
+
+# Memindahkan Pusat 
+posisi-x ada 4 :
+● left
+● right
+● center
+
+posisi-y ada 4 :
+● top
+● bottom
+● center
+*/

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Display" content="Tutorial-Display">
+    <title>Display</title>
+</head>
+
+<style type="text/css" media="all">
+.header{
+	font-size: 55px;
+	background-color: lightgreen;
+}
+.main{
+	background-color: lightblue;
+	width: 1500px;
+}
+.navigasi{
+	font-size: 35px;
+}
+span {
+	background-color: brown;
+}
+a{
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.main h2{
+	background-color: darkred;
+}
+
+.satu{
+	background-color: pink;
+	height: 500px;
+	width: 1500px;
+	
+}
+.copyright{
+	background-color: skyblue;
+	display: block;
+	font-size: 55px;
+}
+/* Kesimpulan :
+img{
+	display: none; fungsinya untuk menghilangkan dari tampilan
+}
+
+● display: inline 
+   - tdk menambah baris baru
+   - width dan height seuai isi content / dan tdk bisa kita edit
+   - margin dan padding hanya pengaruh scara horizontal, tdk vertikal
+
+● display: inline-block
+   - tdk ada elemen yg scara default memiliki display: inline-block / harus di ubah scara manual
+   - sifatnya mirip inline hanya saja kita bisa atur width dan height
+
+● display: block
+   - menambahkan baris baru
+   - jika tidak diatur width nya maka lebarnya akan memenuhi parent
+*/
+</style>
+
+<body>
+    <div class="header">
+        <h1>Display-Hello World</h1>
+    </div>
+    
+    <div class="navigasi">
+        <h2>Daftar Link</h2>
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#">Link4</a>
+    </div>
+    
+    <div class="main">
+	    <h2>Judul Artikel</h2>
+	    <img src="smanligal.jpeg" alt="Smanligal" />
+	    <p>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sunt. Incidunt dolores modi doloremque fugiat <span class="provid">provident nesciunt veritatis</span> maxime quaerat at iste totam consequatur deleniti, neque laudantium quidem sed veniam.
+	    </p>
+	    <p>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nostrum provident hic, eveniet, cum temporibus eligendi tempora fugiat porro vitae inventore aliquam, error animi in tempore eos. Voluptatum, facilis perferendis!
+	    </p>
+    </div>
+    
+    <div class="satu">
+	    <div class="copyright">
+	    	<p>&copy Copyright 2019, SMA N 5 TEGAL</p>
+	    </div>
+    </div>
+<!-- Kesimpulan:
+● fungsi div adalah untuk menampilkan teks dan gambar / juga bisa mengelompokan teks atau gambar tsb. kedalam Class Atw ID
+● fungsi span mirip dengan div yaitu mengelompokan teks dan menampilkan nya tetapi biasa digunakan didalam text
+-->
+</body>
+</html>

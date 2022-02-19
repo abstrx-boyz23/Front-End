@@ -1,0 +1,17 @@
+h1{
+    font-size: 95px;
+    text-align: center;
+    color: #18ebb1;
+}
+h2{
+    font-family: Sans-Serif;
+    font-size: 65px;
+}
+p{
+    font-family: Sans-Serif;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}

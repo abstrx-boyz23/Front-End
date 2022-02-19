@@ -1,0 +1,47 @@
+body {
+	width: 2000px;
+}
+
+.kotak {
+	width: 450px;
+	height: 450px;
+	background-color: #70edac;
+}
+
+.kotak:hover {
+	animation: contohAnimasi 2s ease 3 alternate both;
+	
+}
+
+@keyframes contohAnimasi {
+	0%{
+		width: 450px;
+	}
+	50%{
+		width: 900px;
+		height: 450px;
+	}
+	100%{
+		width: 900px;
+		height: 880px;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	
+	/*0% {*/
+	/*	margin-left: 0px;*/
+	/*}*/
+	/*50% {*/
+	/*	margin-left: 500px;*/
+	/*}*/
+	/*100% {*/
+	/*	margin-left: 500px;*/
+	/*	margin-top: 450px;*/
+	/*}*/
+}
